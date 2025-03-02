@@ -19,6 +19,7 @@ def calcularGanancia(ganancia, precio):
     return ganancia * precio
 
 def calcularPreciofinal(precio, impueso, ganancia):
+
     precio1 = calcularGanancia(ganancia, precio) + precio
     impuestVenta = calcularImpuesto(impueso, precio1)
     return precio1 + impuestVenta
